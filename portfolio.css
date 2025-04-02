@@ -99,7 +99,6 @@ p{
 .download-logo {
     height: 18px;
     filter: invert(100%);
-    display: block;
 }
 
 .text-bold-class {
@@ -232,63 +231,5 @@ left: -50px;
     position: relative;
 }
 
-.recent-text {
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-}
 
-.recent-works-span {
-    color: rgb(0, 187, 187);
-}
-
-.all, .ui, .ux, .web-design {
-    border: unset;
-    padding: 10px 24px;
-    font-weight: bold;
-    color: white;
-    border: unset;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-    font-size: 12px;
-    background-color: rgba(94, 94, 94, 0.3);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    transition: all 0.5s;
-}
-
-.all:hover {
-    background-color: white;
-    color: black;
-}
-
-.ui:hover {
-    background-color: white;
-    color: black;
-}
-
-.ux:hover {
-    background-color: white;
-    color: black;
-}
-
-.web-design:hover {
-    background-color: white;
-    color: black;
-}
-
-.all:active {
-    background-color: aqua;
-}
-
-.ui:active {
-    background-color: aqua;
-}
-
-.ux:active {
-    background-color: aqua;
-}
-
-.web-design:active {
-    background-color: aqua;
-}
 

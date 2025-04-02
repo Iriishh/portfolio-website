@@ -1,13 +1,158 @@
+.recent-text {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.recent-works-span {
+    color: rgb(0, 187, 187);
+}
+
+.bold-text-recent {
+    margin-bottom: 10px;
+}
+
+.buttons-2 {
+    margin-bottom: 20px;
+}
+.all, .ui, .ux, .web-design {
+    border: unset;
+    padding: 10px 24px;
+    font-weight: bold;
+    color: white;
+    border: unset;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    background-color: rgba(94, 94, 94, 0.3);
+    backdrop-filter: blur(1.5px);
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.all:hover {
+    background-color: white;
+    color: black;
+}
+
+.ui:hover {
+    background-color: white;
+    color: black;
+}
+
+.ux:hover {
+    background-color: white;
+    color: black;
+}
+
+.web-design:hover {
+    background-color: white;
+    color: black;
+}
+
+.all:active {
+    background-color: aqua;
+}
+
+.ui:active {
+    background-color: aqua;
+}
+
+.ux:active {
+    background-color: aqua;
+}
+
+.web-design:active {
+    background-color: aqua;
+}
 .course, .lap-1, .lap-2, .phone-1, .phone-2, .phone-3 {
-    height: 100px;
+    height: 150px;
 }
 
 .works {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-1 {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(71, 71, 71, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(1.5px);
+    transition: background-color 0.3s , backdrop-filter 0.5s;
+
 }
 
 .work-2 {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(71, 71, 71, 0.4);
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(1.5px);
+    transition: background-color 0.3s , backdrop-filter 0.5s;
+}
+
+.work-3 {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(71, 71, 71, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(1.5px);
+    transition: background-color 0.3s , backdrop-filter 0.5s;
+}
+
+.doodle-big {
+    background-image: url(IMAGE/THIRD/doodle\ items\ \(1\).png);
+    background-repeat: repeat;
+    background-size: 400px;
+    background-position: top left;
+    padding: 200px 50px;
+}
+
+.lap-1 {
+    position: absolute;
+    left: -35%;
+}
+
+.lap-1-div {
+    margin-left: 15%;
+    position: relative;
+}
+
+.phone-div {
+    position: relative;
+}
+
+.phone-1 {
+    position: absolute;
+    left: -43%;
+}
+
+.phone-3 {
+    position: absolute;
+    right: -43%;
+}
+
+.work-1:hover {
+    background-color: rgba(82, 82, 82, 0.596);
+    backdrop-filter: blur(3px);
+}
+
+.work-2:hover {
+    background-color: rgba(82, 82, 82, 0.596);
+    backdrop-filter: blur(3px);
+}
+
+.work-3:hover {
+    background-color: rgba(82, 82, 82, 0.596);
+    backdrop-filter: blur(3px);
 }
