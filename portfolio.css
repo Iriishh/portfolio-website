@@ -1,0 +1,294 @@
+body {
+    background-color: rgb(42, 52, 59);
+    font-family: 'poppins' ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+    align-items: center;
+    height: 80px;
+}
+
+p{
+    margin: unset;
+}
+
+.left-section {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-section {
+    display: flex;
+    max-width: 300px;
+    min-width: 250px;
+    justify-content: space-between;
+    font-family: 'poppins', 'arial';
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.home,
+.about-me,
+.contact {
+    margin: unset;
+}
+
+.creative-designer {
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+    gap: 50px;
+}
+
+.text {
+    max-width: 450px;
+    position: relative;
+}
+
+.bold-text {
+    font-family: 'poppins', 'arial';
+    font-weight: bolder;
+    color: white;
+    font-size: 70px;
+    line-height: 60px;
+}
+
+.designer {
+    color: rgb(0, 187, 187);
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.hire-me,
+.download {
+    padding: 7px 24px;
+    font-weight: bold;
+    color: white;
+    border: unset;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.hire-me {
+    background-color: rgb(1, 221, 221);
+    border-radius: 25px;
+
+}
+
+.download {
+    background-color: #40474d;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+.download-logo {
+    height: 18px;
+    filter: invert(100%);
+    display: block;
+}
+
+.text-bold-class {
+    margin-bottom: 30px;
+}
+
+.image-home {
+    height: 300px;
+}
+
+.doodle-round-designer {
+    height: 300px;
+    z-index: 2;
+}
+
+.designer-image {
+    position: absolute;
+    bottom: -90px;
+    left: -30px;
+}
+
+.image {
+    position: relative;
+}
+
+
+.arrow-vector-down {
+height: 150px;
+position: absolute;
+top: 20px;
+left: -50px;
+}
+
+.lines {
+    border: 0.5px solid rgb(66, 66, 66);
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+}
+
+.lines-vertical {
+    height: 100%;
+    width: 2px;
+    background-color: rgb(66, 66, 66);
+    position: absolute;
+    top: 0;
+    left: 283px;
+    z-index: 1;
+}
+
+.about-me-page {
+    display: flex;
+    justify-content: center;
+    margin: 150px 30px;
+    align-items: center;
+    gap: 20%;
+}
+
+.about-me-text {
+    max-width: 420px;
+    position: relative;
+}
+
+.vector-2, .vector-3, .vector-4 {
+    height: 40px;
+    position: absolute;
+}
+
+.vector-2 {
+    top: 0;
+    right: 20%;
+    height: 60px;
+}
+
+.vector-3 {
+    top: -100px;
+}
+
+.vector-4 {
+    bottom: -120px;
+    height: 90px;
+    right: 40px;
+}
+
+.bold-text-2 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+.bold-text-span {
+    color: rgb(0, 187, 187);
+}
+
+.text-2 {
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    font-weight: light;
+    margin-top: 10px;
+}
+
+.read-more {
+    font-weight: bold;
+    color: white;
+}
+
+.image-2 {
+    height: 350px;
+}
+
+.vector-illustration-2 {
+    height: 230px;
+}
+
+.image-second {
+    position: relative;
+}
+
+.illustration-2 {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home {
+    position: relative;
+}
+
+.recent-text {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.recent-works-span {
+    color: rgb(0, 187, 187);
+}
+
+.all, .ui, .ux, .web-design {
+    border: unset;
+    padding: 10px 24px;
+    font-weight: bold;
+    color: white;
+    border: unset;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    background-color: rgba(94, 94, 94, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.all:hover {
+    background-color: white;
+    color: black;
+}
+
+.ui:hover {
+    background-color: white;
+    color: black;
+}
+
+.ux:hover {
+    background-color: white;
+    color: black;
+}
+
+.web-design:hover {
+    background-color: white;
+    color: black;
+}
+
+.all:active {
+    background-color: aqua;
+}
+
+.ui:active {
+    background-color: aqua;
+}
+
+.ux:active {
+    background-color: aqua;
+}
+
+.web-design:active {
+    background-color: aqua;
+}
+

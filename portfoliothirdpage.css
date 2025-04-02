@@ -1,0 +1,13 @@
+.course, .lap-1, .lap-2, .phone-1, .phone-2, .phone-3 {
+    height: 100px;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.work-2 {
+    display: flex;
+    
+}
