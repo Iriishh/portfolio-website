@@ -1,6 +1,9 @@
 body {
     background-color: rgba(34, 40, 49, 1);
     font-family: 'poppins', 'Arial';
+    position: relative;
+    z-index: 2;
+    margin: unset;
 }
 
 header {
@@ -141,6 +144,13 @@ left: -50px;
     left: 0;
 }
 
+.line-2 {
+    border: 0.5px solid rgb(66, 66, 66);
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+    left: 0;
+}
 .lines-vertical {
     height: 100%;
     width: 2px;
@@ -148,7 +158,7 @@ left: -50px;
     position: absolute;
     top: 0;
     left: 283px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .about-me-page {
