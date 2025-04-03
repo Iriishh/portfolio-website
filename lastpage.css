@@ -1,0 +1,135 @@
+.project-in-text {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    line-height: 52px;
+}
+
+.blue-mind {
+    color: rgb(0, 187, 187);
+}
+
+.project-in-mind {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.illustration-3 {
+    height: 230px;
+}
+
+.vector-5 {
+    width: 100px;
+    position: absolute;
+    left: -60%;
+    bottom: 40%;
+}
+
+.last-page-image {
+    position: relative;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 50px;
+    position: relative;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    color: white;
+    font-weight: 600;
+}
+
+input {
+    border: unset;
+    background-color: rgba(77, 83, 94, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 13px;
+    border-radius: 10px;
+    caret-color: white;
+    color: white;
+    
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(135, 143, 155, 0.952);
+    font-family: 'poppins', 'arial';
+}
+
+textarea {
+    border: unset;
+    background-color: rgba(77, 83, 94, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
+    caret-color: white;
+    color: white;
+    font-family: 'poppins', 'arial';
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column ;
+    gap: 8px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+textarea::placeholder {
+    padding: 10px;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.message-icon {
+height: 20px;
+filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.5));
+
+}
+
+.send-message {
+background-color: rgba(0, 255, 255, 0.733);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-weight: 600;
+gap: 5px;
+padding: 8px 20px;
+border: unset;
+border-radius: 25px;
+text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+margin-top: 20px;
+}
+
+.message-span {
+    height: 15px;
+}
+
+.mail-vector {
+    position: absolute;
+    height: 50px;
+    bottom: -50px;
+    right: 0;
+}
+

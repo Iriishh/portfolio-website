@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(42, 52, 59);
-    font-family: 'poppins' ;
+    background-color: rgba(34, 40, 49, 1);
+    font-family: 'poppins', 'Arial';
 }
 
 header {
@@ -16,9 +16,10 @@ p{
     margin: unset;
 }
 
-.left-section {
+.name {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
 .right-section {
