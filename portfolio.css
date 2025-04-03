@@ -10,9 +10,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 40px;
+    margin: 0px 100px;
     align-items: center;
-    height: 80px;
+    height: 130px;
+    position: relative;
 }
 
 p{
@@ -22,17 +23,17 @@ p{
 .name {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .right-section {
     display: flex;
-    max-width: 300px;
-    min-width: 250px;
+    max-width: 500px;
+    min-width: 350px;
     justify-content: space-between;
     font-family: 'poppins', 'arial';
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 200;
 }
 
@@ -46,14 +47,14 @@ p{
     display: flex;
     justify-content: center;
     gap: 40%;
-    margin-top: 100px;
+    margin-top: 200px;
     position: relative;
     z-index: 2;
     gap: 50px;
 }
 
 .text {
-    max-width: 450px;
+    max-width: 600px;
     position: relative;
 }
 
@@ -61,8 +62,8 @@ p{
     font-family: 'poppins', 'arial';
     font-weight: bolder;
     color: white;
-    font-size: 70px;
-    line-height: 60px;
+    font-size: 96px;
+    line-height: 90px;
 }
 
 .designer {
@@ -71,21 +72,21 @@ p{
 
 .buttons {
     display: flex;
-    gap: 10px;
+    gap: 24px;
 }
 
 .hire-me,
 .download {
-    padding: 7px 24px;
+    padding: 10px 32px;
     font-weight: bold;
-    color: white;
+    color: rgba(238, 238, 238, 1);
     border: unset;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .hire-me {
-    background-color: rgb(1, 221, 221);
+    background-color: rgba(0, 173, 181, 1);
     border-radius: 25px;
 
 }
@@ -101,26 +102,26 @@ p{
 }
 
 .download-logo {
-    height: 18px;
+    height: 24px;
     filter: invert(100%);
 }
 
 .text-bold-class {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .image-home {
-    height: 300px;
+    height: 450px;
 }
 
 .doodle-round-designer {
-    height: 300px;
+    height: 500px;
     z-index: 2;
 }
 
 .designer-image {
     position: absolute;
-    bottom: -90px;
+    bottom: -120px;
     left: -30px;
 }
 
@@ -130,16 +131,16 @@ p{
 
 
 .arrow-vector-down {
-height: 150px;
+height: 220px;
 position: absolute;
-top: 20px;
-left: -50px;
+top: 50px;
+left: -90px;
 }
 
 .lines {
     border: 0.5px solid rgb(66, 66, 66);
     position: absolute;
-    top: 80px;
+    top: 130px;
     right: 0;
     left: 0;
 }
@@ -157,14 +158,21 @@ left: -50px;
     background-color: rgb(66, 66, 66);
     position: absolute;
     top: 0;
-    left: 283px;
+    left: 39%;
     z-index: -1;
+}
+
+.frame-7 {
+    width: 90px;
+    position: absolute;
+    top: 850px;
+    transform: translateX(-50%);
 }
 
 .about-me-page {
     display: flex;
     justify-content: center;
-    margin: 150px 30px;
+    margin: 300px 30px;
     align-items: center;
     gap: 20%;
 }
@@ -181,8 +189,8 @@ left: -50px;
 
 .vector-2 {
     top: 0;
-    right: 20%;
-    height: 60px;
+    right: 5%;
+    height: 80px;
 }
 
 .vector-3 {
@@ -191,12 +199,12 @@ left: -50px;
 
 .vector-4 {
     bottom: -120px;
-    height: 90px;
+    height: 150px;
     right: 40px;
 }
 
 .bold-text-2 {
-    font-size: 50px;
+    font-size: 64px;
     font-weight: bolder;
     color: white;
     margin-bottom: 0px;
@@ -220,11 +228,11 @@ left: -50px;
 }
 
 .image-2 {
-    height: 350px;
+    height: 500px;
 }
 
 .vector-illustration-2 {
-    height: 230px;
+    height: 350px;
 }
 
 .image-second {

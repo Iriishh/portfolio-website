@@ -1,5 +1,21 @@
+.doodle-big {
+    background-image: url(IMAGE/THIRD/doodle\ items\ \(1\).png);
+    background-repeat: repeat;
+    background-size: 500px;
+    background-position: top left;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 200px 200px; */
+}
+
+.recent-works {
+
+}
+
 .recent-text {
-    font-size: 45px;
+    font-size: 64px;
     font-weight: bold;
     color: white;
 }
@@ -9,22 +25,22 @@
 }
 
 .bold-text-recent {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .buttons-2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
     gap: 15px;
 }
 .all, .ui, .ux, .web-design {
     border: unset;
-    padding: 10px 24px;
+    padding: 10px 32px;
     font-weight: bold;
     color: white;
     border: unset;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-    font-size: 12px;
+    font-size: 18px;
     background-color:rgba(57, 62, 70, 0.5);
     backdrop-filter: blur(1.5px);
     border-radius: 20px;
@@ -73,12 +89,12 @@
 .works {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 80px;
 }
 
 .work-1 {
-    height: 250px;
-    width: 350px;
+    height: 280px;
+    width: 360px;
     background-color: rgba(57, 62, 70, 0.5);
     display: flex;
     justify-content: center;
@@ -90,8 +106,8 @@
 }
 
 .work-2 {
-    height: 250px;
-    width: 350px;
+    height: 280px;
+    width: 360px;
     background-color:rgba(57, 62, 70, 0.5);
     display: flex;
     justify-content: center;
@@ -102,8 +118,8 @@
 }
 
 .work-3 {
-    height: 250px;
-    width: 350px;
+    height: 280px;
+    width: 360px;
     background-color: rgba(57, 62, 70, 0.5);
     display: flex;
     justify-content: center;
@@ -113,13 +129,6 @@
     transition: background-color 0.3s , backdrop-filter 0.5s;
 }
 
-.doodle-big {
-    background-image: url(IMAGE/THIRD/doodle\ items\ \(1\).png);
-    background-repeat: repeat;
-    background-size: 400px;
-    background-position: top left;
-    padding: 200px 50px;
-}
 
 .lap-1 {
     position: absolute;
