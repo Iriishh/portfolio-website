@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Document</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="secondpage.css">
     <link rel="stylesheet" href="portfoliothirdpage.css">
     <link rel="stylesheet" href="lastpage.css">
     <link rel="stylesheet" href="footer.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,7 +20,7 @@
 
 <body>
     <div class="lines-vertical">
-        <img class="frame-7" src="IMAGE/Frame 7.png" alt="">
+        <img class="frame-7" onclick="window.scrollTo({top: 1000, behavior:'smooth'})" src="IMAGE/Frame 7.png" alt="">
     </div>
     <hr class="lines">
     <hr class="line-2">
@@ -27,127 +29,140 @@
             <p class="name"> IRISH DEV </p>
         </div>
         <div class="right-section">
-            <p class="home">Home</p>
-            <p class="about-me">About Me</p>
-            <p class="contact">Contact Me</p>
+            <a href="#home" class="home">Home</a>
+            <a href="#about" class="about-me">About Me</a>
+            <a href="#contact" class="contact">Contact Me</a>
         </div>
     </header>
-    <hr class="lines">
-    <div class="creative-designer">
-        <div class="text">
-            <div class="bold-text">
-                <p class="text-bold-class">CREATIVE UI <span class="designer"> DESIGNER </span> </p>
-            </div>
-            <div class="buttons">
-                <button class="hire-me">Hire Me</button>
-                <button class="download"> <span class="span-text">Download CV </span> <span class="span-icon"> <img
-                            class="download-logo" src="IMAGE/download-svgrepo-com.svg" alt=""> </span></button>
-            </div>
-            <img class="arrow-vector-down" src="IMAGE/Vector 187.png" alt="">
-        </div>
-        <div class="image">
-            <img class="doodle-round-designer" src="IMAGE/doodles mixed round.png" alt="">
-            <div class="designer-image">
-                <img class="image-home" src="IMAGE/Group 2346.png" alt="">
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="about-me-page">
-        <div class="about-me-text">
-            <p class="bold-text-2">About <span class="bold-text-span">me</span></p>
-            <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat..... <span class="read-more">Read More</span></p>
-            <img class="vector-2" src="IMAGE/SECOND PAGE/lightbulb.png" alt="">
-            <img class="vector-3" src="IMAGE/SECOND PAGE/Vector 141.png" alt="">
-            <img class="vector-4" src="IMAGE/SECOND PAGE/Vector 186.png" alt="">
-        </div>
-        <div class="image-second">
-            <img class="image-2" src="IMAGE/SECOND PAGE/doodle items.png" alt="">
-            <div class="illustration-2">
-                <img class="vector-illustration-2" src="IMAGE/SECOND PAGE/Group 62.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="doodle-big">
-        <div class="recent-works">
-            <div class="bold-text-recent">
-                <p class="recent-text"> My Recent <span class="recent-works-span"> works </span> </p>
-            </div>
-            <div class="buttons-2">
-                <button class="all">All</button>
-                <button class="ui">UI</button>
-                <button class="ux">UX</button>
-                <button class="web-design">Web Design</button>
-            </div>
-            <div class="works">
-                <div class="work-1">
-                    <img class="course" src="IMAGE/THIRD/Course Website Landing Page Thumbnail 1.png" alt="">
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="text">
+                <div class="bold-text">
+                    <p class="text-bold-class">CREATIVE UI <span class="designer"> DESIGNER </span> </p>
                 </div>
-                <div class="work-2">
-                    <div class="lap-1-div">
-                        <img class="lap-2" src="IMAGE/THIRD/Rectangle (1).png" alt="">
-                        <img class="lap-1" src="IMAGE/THIRD/Rectangle.png" alt="">
+                <div class="buttons">
+                    <button class="hire-me">Hire Me</button>
+                    <button class="download"> <span class="span-text">Download CV </span> <span class="span-icon"> <img
+                                class="download-logo" src="IMAGE/download-svgrepo-com.svg" alt=""> </span></button>
+                </div>
+                <img class="arrow-vector-down" src="IMAGE/Vector 187.png" alt="">
+            </div>
+            <div class="image">
+                <img class="doodle-round-designer" src="IMAGE/doodles mixed round.png" alt="">
+                <div class="designer-image">
+                    <img class="image-home" src="IMAGE/Group 2346.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="about" class="about-me-section">
+        <div class="container">
+            <div class="about-me-text">
+                <p class="bold-text-2">About <span class="bold-text-span">me</span></p>
+                <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat <span class="read-more">Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat</span> <a href="#" class="read-more-button" onclick="toggleReadMore(event)">Read More</a></p>
+                <img class="vector-2" src="IMAGE/SECOND PAGE/lightbulb.png" alt="">
+                <img class="vector-3" src="IMAGE/SECOND PAGE/Vector 141.png" alt="">
+                <img class="vector-4" src="IMAGE/SECOND PAGE/Vector 186.png" alt="">
+            </div>
+            <div class="image-second">
+                <img class="image-2" src="IMAGE/SECOND PAGE/doodle items.png" alt="">
+                <div class="illustration-2">
+                    <img class="vector-illustration-2" src="IMAGE/SECOND PAGE/Group 62.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works-section">
+        <div class="doodle-background">
+            <div class="container">
+                <div class="recent-works">
+                    <div class="bold-text-recent">
+                        <p class="recent-text"> My Recent <span class="recent-works-span"> works </span> </p>
+                    </div>
+                    <div class="buttons-2">
+                        <button class="all">All</button>
+                        <button class="ui">UI</button>
+                        <button class="ux">UX</button>
+                        <button class="web-design">Web Design</button>
+                    </div>
+                    <div class="works">
+                        <div class="work-1">
+                            <img class="course" src="IMAGE/THIRD/Course Website Landing Page Thumbnail 1.png" alt="">
+                        </div>
+                        <div class="work-2">
+                            <div class="lap-1-div">
+                                <img class="lap-2" src="IMAGE/THIRD/Rectangle (1).png" alt="">
+                                <img class="lap-1" src="IMAGE/THIRD/Rectangle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="work-3">
+                            <div class="phone-div">
+                                <img class="phone-1" src="IMAGE/THIRD/Rectangle (2).png" alt="">
+                                <img class="phone-2" src="IMAGE/THIRD/Rectangle (3).png" alt="">
+                                <img class="phone-3" src="IMAGE/THIRD/Rectangle (4).png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="work-3">
-                    <div class="phone-div">
-                        <img class="phone-1" src="IMAGE/THIRD/Rectangle (2).png" alt="">
-                        <img class="phone-2" src="IMAGE/THIRD/Rectangle (3).png" alt="">
-                        <img class="phone-3" src="IMAGE/THIRD/Rectangle (4).png" alt="">
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-    <div class="get-in-touch">
-        <div class="project-in-mind">
-            <div class="last-page-text">
-                <p class="project-in-text">Got a project in <span class="blue-mind"> mind?</span> </p>
-            </div>
-            <div class="last-page-image">
-                <img class="illustration-3" src="IMAGE/last/Group 2372.png" alt="">
-                <img class="vector-5" src="IMAGE/last/Vector 186 (1).png" alt="">
-            </div>
-        </div>
-        <div class="details">
-            <form action="#" method="post">
-                <div class="form-group">
-                    <div class="input-box">
-                        <label for="name"> Your name</label>
-                        <input type="text" id="name" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="email"> Your email</label>
-                        <input type="text" id="email" name="email" placeholder="E-mail" required>
-                    </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="project-in-mind">
+                <div class="last-page-text">
+                    <p class="project-in-text">Got a project in <span class="blue-mind"> mind?</span> </p>
                 </div>
-                <div class="message-box">
-                    <label for="message"> Your message </label>
-                    <textarea name="message" id="message" placeholder="Message" rows="10" c required></textarea>
+                <div class="last-page-image">
+                    <img class="illustration-3" src="IMAGE/last/Group 2372.png" alt="">
+                    <img class="vector-5" src="IMAGE/last/Vector 186 (1).png" alt="">
                 </div>
-            </form>
-            <button class="send-message"> Send Message <span class="message-span"> <img class="message-icon"
-                        src="IMAGE/last/icons8-sent-100.png" alt=""></span></button>
+            </div>
+            <div class="details">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="name"> Your name</label>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email"> Your email</label>
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+                    </div>
+                    <div class="message-box">
+                        <label for="message"> Your message </label>
+                        <textarea name="message" id="message" placeholder="Message" rows="10" required></textarea>
+                    </div>
+                    <button class="send-message" type="submit"> Send Message <span class="message-span"> <img
+                                class="message-icon" src="IMAGE/last/icons8-sent-100.png" alt=""></span></button>
+                </form>
+
+            </div>
+            <img class="mail-vector" src="IMAGE/last/mail.png" alt="">
         </div>
-        <img class="mail-vector" src="IMAGE/last/mail.png" alt="">
-    </div>
+    </section>
 
     <footer>
         <div class="footer-buttons">
-            <div class="home-footer">
+            <a href="#home" class="home-footer">
                 <img class="home-icon" src="IMAGE/footer/home.png" alt="">
                 <p class="home-text">Home</p>
-            </div>
-            <div class="about-me-footer">
+            </a>
+            <a href="#about" class="about-me-footer">
                 <img class="about-icon" src="IMAGE/footer/user.png" alt="">
                 <p class="about-text">About me</p>
-            </div>
-            <div class="contact-footer">
+            </a>
+            <a href="#contact" class="contact-footer">
                 <img class="contact-icon" src="IMAGE/footer/phone.png" alt="">
                 <p class="contact-text">Contact</p>
-            </div>
+            </a>
         </div>
         <div class="socials">
             <div class="facebook">

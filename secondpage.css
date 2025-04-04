@@ -1,0 +1,99 @@
+.about-me-section .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+    /* gap: 20%; */
+}
+
+.about-me-text {
+    max-width: 450px;
+    position: relative;
+}
+
+.vector-2, .vector-3, .vector-4 {
+    height: 40px;
+    position: absolute;
+}
+
+.vector-2 {
+    top: 0;
+    right: 5%;
+    height: 80px;
+}
+
+.vector-3 {
+    top: -100px;
+}
+
+.vector-4 {
+    bottom: -150px;
+    height: 150px;
+    right: 40px;
+}
+
+.bold-text-2 {
+    font-size: 64px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+.bold-text-span {
+    color: rgb(0, 187, 187);
+}
+
+.text-2 {
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    font-weight: light;
+    margin-top: 10px;
+}
+
+.read-more-button {
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: unset;
+    font-size: 18px;
+    padding: unset;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.read-more {
+    max-height: 0;
+    overflow: hidden;
+    display: inline-block;
+    transition: max-height 0.5s ease;
+    vertical-align: top;
+}
+
+.read-more.show {
+    max-height: 100px;
+}
+
+.image-2 {
+    height: 500px;
+}
+
+.vector-illustration-2 {
+    height: 350px;
+}
+
+.image-second {
+    position: relative;
+}
+
+.illustration-2 {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home {
+    position: relative;
+}
